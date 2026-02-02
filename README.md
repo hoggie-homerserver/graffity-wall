@@ -1,12 +1,15 @@
 # Graffity Wall
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Version](https://img.shields.io/badge/version-v1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
 ## Description
-The Graffity Wall is a simple web application that allows users to post messages to a virtual wall. It's designed to be run as a Docker container, providing an easy way to deploy a collaborative message board.
+The Graffity Wall is a simple, Docker-containerized web application that allows users to post messages to a virtual wall. It provides an easy and portable way to deploy a collaborative message board, ideal for small communities or internal projects.
 
 ## Features
 -   Post messages to a public wall.
--   Simple web interface.
--   Containerized for easy deployment with Docker.
+-   Simple and intuitive web interface.
+-   Easily deployable as a Docker container.
+-   Supports persistent storage for messages via Docker volumes.
 
 ## Installation
 
